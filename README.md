@@ -27,8 +27,8 @@ y = (d * 0x10) + b;
 
 Move onto next group...
 
-# INSTALL - Command line program
+# INSTALL
 
 
 
-# USAGE - Command Line App
+# USAGE
