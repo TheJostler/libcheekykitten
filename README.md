@@ -29,49 +29,6 @@ Move onto next group...
 
 # INSTALL - Command line program
 
-Download and compile from source: 
-
-`git clone https://github.com/TheJostler/CheekyKitten.git`
-
-If you want to install the logical algo version:
-
-`cd LogicalAlgo`
-
-Before compiling with make
-
-`make`
-
-`sudo make install`
 
 
 # USAGE - Command Line App
- 
-    cheeky / cheekytesting [options] -input file- -output file-
-    CheekyKitten will default to stdout/stdin if i/o files are not provided
-              -h           Print this help menu
-
-              -k <key>     Encrypt with a key (Experimental)
-
-              -r           Reverse
- 
-              -b           Output as binary 
- 
-Some examples:
-
-`cheeky file file.cheek`       -will input binary from file and write cheeky code to .cheek file-
-
-`cheeky file`                  -will input binary from file and output human readable cheeky code(hex) from IXI function-
-
-`cheeky -k secret file`             -will input binary from file and output human readable cheeky code(hex) from  XX function-
-
-`cheeky file -b > file.cheek`  -will input binary from file and output binary cheeky code, bash then redirects to file.cheek-
-
-`echo "hi" | cheeky`           -will input binary from stdin and output human readable cheeky code(hex)-
-
-# .cheek File mime-types
-
-If you would like to add .cheek mime types to your system so that your computer can recognise files encoded with cheekykitten, the files in the MIME directory can help you add .cheek mime-types to your system, I haven't created an automatic installer for doing this however it's not difficult. Search on Google how to add mime types to your particular system if you want...
-
-This step is not necessary for the normal functioning of cheekykitten!
-
-Have Fun! =D
